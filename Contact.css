@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ba78c2;
+}
+header {
+    background: #e68c38;
+    color: rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #f3dcb9;
+    padding: 0.5rem;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 1rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #e29b59;
+}
+.hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+.features, .pricing {
+    padding: 2rem;
+    text-align: center;
+}
+.features h2, .pricing h2 {
+    margin-bottom: 1rem;
+}
+.feature-list, .pricing-list {
+    list-style-type: none;
+    padding: 0;
+}
+.feature-list li, .pricing-list li {
+    margin: 1rem 0;
+}
